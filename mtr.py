@@ -29,7 +29,7 @@ def fetch_MTR_data():
 
 def render_MTR():
     MTR_data = fetch_MTR_data()
-    print (MTR_data["data"]["TKL-TKO"]["UP"][0]["time"])
+    print (MTR_data)
 
 
 
